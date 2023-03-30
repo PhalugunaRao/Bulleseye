@@ -14,6 +14,16 @@ struct ToggelStateView: View {
     
     var body: some View {
         VStack{
+            Text("Hello world!")
+                .padding()
+                .foregroundColor(.red).background(Color.black)
+            
+            Text("My name is Phalu")
+                .padding()
+            
+            Button(action: {}){
+                Text("Button")
+            }
             Image(systemName: "arrow.down")
                 .rotationEffect(.init(degrees: isOpen ?  0 : 180))
             
