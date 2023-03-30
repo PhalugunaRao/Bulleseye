@@ -15,6 +15,8 @@
 		A7F4BA5529C93ABF0072AD57 /* BulleseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA5429C93ABF0072AD57 /* BulleseyeTests.swift */; };
 		A7F4BA5C29CCC07A0072AD57 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA5B29CCC07A0072AD57 /* TextViews.swift */; };
 		A7F4BA5E29CF4DDE0072AD57 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA5D29CF4DDE0072AD57 /* Shapes.swift */; };
+		A7F4BA6029CF5CD00072AD57 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA5F29CF5CD00072AD57 /* RoundedViews.swift */; };
+		A7F4BA6229D510430072AD57 /* ToggelStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA6129D510430072AD57 /* ToggelStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		A7F4BA5429C93ABF0072AD57 /* BulleseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulleseyeTests.swift; sourceTree = "<group>"; };
 		A7F4BA5B29CCC07A0072AD57 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
 		A7F4BA5D29CF4DDE0072AD57 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		A7F4BA5F29CF5CD00072AD57 /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		A7F4BA6129D510430072AD57 /* ToggelStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggelStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				A7F4BA3B29C627A90072AD57 /* ContentView.swift */,
 				A7F4BA5B29CCC07A0072AD57 /* TextViews.swift */,
 				A7F4BA5D29CF4DDE0072AD57 /* Shapes.swift */,
+				A7F4BA5F29CF5CD00072AD57 /* RoundedViews.swift */,
+				A7F4BA6129D510430072AD57 /* ToggelStateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F4BA6229D510430072AD57 /* ToggelStateView.swift in Sources */,
+				A7F4BA6029CF5CD00072AD57 /* RoundedViews.swift in Sources */,
 				A7F4BA3C29C627A90072AD57 /* ContentView.swift in Sources */,
 				A7F4BA5C29CCC07A0072AD57 /* TextViews.swift in Sources */,
 				A7F4BA5E29CF4DDE0072AD57 /* Shapes.swift in Sources */,
