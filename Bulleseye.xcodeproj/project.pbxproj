@@ -20,6 +20,7 @@
 		A7F4BA6429D5F8B20072AD57 /* SfoImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA6329D5F8B20072AD57 /* SfoImagesView.swift */; };
 		A7F4BA6629D7B3650072AD57 /* SwiftUIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA6529D7B3650072AD57 /* SwiftUIColors.swift */; };
 		A7F4BA6829D7B7690072AD57 /* GradientColorShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA6729D7B7690072AD57 /* GradientColorShapes.swift */; };
+		A7F4BA6A29D842BF0072AD57 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA6929D842BF0072AD57 /* ShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		A7F4BA6329D5F8B20072AD57 /* SfoImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfoImagesView.swift; sourceTree = "<group>"; };
 		A7F4BA6529D7B3650072AD57 /* SwiftUIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColors.swift; sourceTree = "<group>"; };
 		A7F4BA6729D7B7690072AD57 /* GradientColorShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientColorShapes.swift; sourceTree = "<group>"; };
+		A7F4BA6929D842BF0072AD57 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				A7F4BA6329D5F8B20072AD57 /* SfoImagesView.swift */,
 				A7F4BA6529D7B3650072AD57 /* SwiftUIColors.swift */,
 				A7F4BA6729D7B7690072AD57 /* GradientColorShapes.swift */,
+				A7F4BA6929D842BF0072AD57 /* ShapesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			files = (
 				A7F4BA6229D510430072AD57 /* ToggelStateView.swift in Sources */,
 				A7F4BA6829D7B7690072AD57 /* GradientColorShapes.swift in Sources */,
+				A7F4BA6A29D842BF0072AD57 /* ShapesView.swift in Sources */,
 				A7F4BA6029CF5CD00072AD57 /* RoundedViews.swift in Sources */,
 				A7F4BA6629D7B3650072AD57 /* SwiftUIColors.swift in Sources */,
 				A7F4BA3C29C627A90072AD57 /* ContentView.swift in Sources */,
