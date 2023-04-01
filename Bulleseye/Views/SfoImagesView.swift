@@ -11,6 +11,10 @@ struct SfoImagesView: View {
     var body: some View {
         VStack{
             
+            Text("Hi Geethu").padding().foregroundColor(Color("Secondary"))
+            
+            
+
             Image(systemName: "cloud.sun")
                 .symbolRenderingMode(.monochrome)
                               .imageScale(.large)
