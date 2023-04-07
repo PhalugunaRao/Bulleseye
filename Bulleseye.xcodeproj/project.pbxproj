@@ -22,6 +22,10 @@
 		A7F4BA6829D7B7690072AD57 /* GradientColorShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA6729D7B7690072AD57 /* GradientColorShapes.swift */; };
 		A7F4BA6A29D842BF0072AD57 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA6929D842BF0072AD57 /* ShapesView.swift */; };
 		A7F4BA6C29D8692E0072AD57 /* LayoutViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA6B29D8692E0072AD57 /* LayoutViews.swift */; };
+		A7F4BA6E29D9ECF80072AD57 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA6D29D9ECF80072AD57 /* StateView.swift */; };
+		A7F4BA7029DE49EE0072AD57 /* ToggleStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA6F29DE49EE0072AD57 /* ToggleStateView.swift */; };
+		A7F4BA7229DE4DB80072AD57 /* PassingDataview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA7129DE4DB80072AD57 /* PassingDataview.swift */; };
+		A7F4BA7429DE4F0A0072AD57 /* CustomLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA7329DE4F0A0072AD57 /* CustomLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		A7F4BA6729D7B7690072AD57 /* GradientColorShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientColorShapes.swift; sourceTree = "<group>"; };
 		A7F4BA6929D842BF0072AD57 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		A7F4BA6B29D8692E0072AD57 /* LayoutViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViews.swift; sourceTree = "<group>"; };
+		A7F4BA6D29D9ECF80072AD57 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		A7F4BA6F29DE49EE0072AD57 /* ToggleStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStateView.swift; sourceTree = "<group>"; };
+		A7F4BA7129DE4DB80072AD57 /* PassingDataview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataview.swift; sourceTree = "<group>"; };
+		A7F4BA7329DE4F0A0072AD57 /* CustomLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,10 @@
 				A7F4BA6729D7B7690072AD57 /* GradientColorShapes.swift */,
 				A7F4BA6929D842BF0072AD57 /* ShapesView.swift */,
 				A7F4BA6B29D8692E0072AD57 /* LayoutViews.swift */,
+				A7F4BA6D29D9ECF80072AD57 /* StateView.swift */,
+				A7F4BA6F29DE49EE0072AD57 /* ToggleStateView.swift */,
+				A7F4BA7129DE4DB80072AD57 /* PassingDataview.swift */,
+				A7F4BA7329DE4F0A0072AD57 /* CustomLoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 				A7F4BA6029CF5CD00072AD57 /* RoundedViews.swift in Sources */,
 				A7F4BA6629D7B3650072AD57 /* SwiftUIColors.swift in Sources */,
 				A7F4BA3C29C627A90072AD57 /* ContentView.swift in Sources */,
+				A7F4BA7429DE4F0A0072AD57 /* CustomLoadingView.swift in Sources */,
 				A7F4BA5C29CCC07A0072AD57 /* TextViews.swift in Sources */,
+				A7F4BA7229DE4DB80072AD57 /* PassingDataview.swift in Sources */,
+				A7F4BA6E29D9ECF80072AD57 /* StateView.swift in Sources */,
+				A7F4BA7029DE49EE0072AD57 /* ToggleStateView.swift in Sources */,
 				A7F4BA5E29CF4DDE0072AD57 /* Shapes.swift in Sources */,
 				A7F4BA6C29D8692E0072AD57 /* LayoutViews.swift in Sources */,
 				A7F4BA4D29C8D2930072AD57 /* Game.swift in Sources */,
