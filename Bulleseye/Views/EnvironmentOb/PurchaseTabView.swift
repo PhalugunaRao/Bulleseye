@@ -1,23 +1,19 @@
 //
-//  BulleseyeApp.swift
+//  PurchaseTabView.swift
 //  Bulleseye
 //
-//  Created by ekincare on 18/03/23.
+//  Created by ekincare on 07/04/23.
 //
 
 import SwiftUI
 
-@main
-struct BulleseyeApp: App {
-    
-   // @StateObject private var vm = PurchaseViewmodel()
-    var body: some Scene {
-        WindowGroup {
-            TutorialView()
-           // LoginView()
+struct PurchaseTabView: View {
+    var body: some View {
+        Text("demo")
+        
+//        WindowGroup{
 //            TabView{
 //                PurchaseView()
-//                    .environmentObject(vm)
 //                    .tabItem {
 //                        Image(systemName: "creditcard")
 //                        Text("Purchase")
@@ -27,6 +23,9 @@ struct BulleseyeApp: App {
 //                    Text("State")
 //                }
 //            }
-        }
+//
+//        }
     }
 }
+
+

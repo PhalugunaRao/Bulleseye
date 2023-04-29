@@ -29,6 +29,15 @@
 		A7F4BA7729E002500072AD57 /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA7629E002500072AD57 /* ObservableObjectView.swift */; };
 		A7F4BA7929E017820072AD57 /* ObservableExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA7829E017820072AD57 /* ObservableExampleView.swift */; };
 		A7F4BA7B29E0180D0072AD57 /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA7A29E0180D0072AD57 /* PeopleViewModel.swift */; };
+		A7F4BA7E29E023440072AD57 /* PurchaseStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA7D29E023440072AD57 /* PurchaseStateView.swift */; };
+		A7F4BA8029E025990072AD57 /* PurchaseTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA7F29E025990072AD57 /* PurchaseTabView.swift */; };
+		A7F4BA8229E026820072AD57 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA8129E026820072AD57 /* PurchaseView.swift */; };
+		A7F4BA8429E028400072AD57 /* PurchaseViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA8329E028400072AD57 /* PurchaseViewmodel.swift */; };
+		A7F4BA8729E075600072AD57 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA8629E075600072AD57 /* LoginView.swift */; };
+		A7F4BA8929E07A9D0072AD57 /* LogedInVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA8829E07A9D0072AD57 /* LogedInVIew.swift */; };
+		A7F4BA8D29E07B7F0072AD57 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA8C29E07B7F0072AD57 /* LoginViewModel.swift */; };
+		A7F4BA9029E0F7710072AD57 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA8F29E0F7710072AD57 /* TutorialView.swift */; };
+		A7F4BA9229E0F94C0072AD57 /* TutorialFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA9129E0F94C0072AD57 /* TutorialFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +75,15 @@
 		A7F4BA7629E002500072AD57 /* ObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectView.swift; sourceTree = "<group>"; };
 		A7F4BA7829E017820072AD57 /* ObservableExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExampleView.swift; sourceTree = "<group>"; };
 		A7F4BA7A29E0180D0072AD57 /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		A7F4BA7D29E023440072AD57 /* PurchaseStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseStateView.swift; sourceTree = "<group>"; };
+		A7F4BA7F29E025990072AD57 /* PurchaseTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTabView.swift; sourceTree = "<group>"; };
+		A7F4BA8129E026820072AD57 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
+		A7F4BA8329E028400072AD57 /* PurchaseViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewmodel.swift; sourceTree = "<group>"; };
+		A7F4BA8629E075600072AD57 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A7F4BA8829E07A9D0072AD57 /* LogedInVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogedInVIew.swift; sourceTree = "<group>"; };
+		A7F4BA8C29E07B7F0072AD57 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A7F4BA8F29E0F7710072AD57 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		A7F4BA9129E0F94C0072AD57 /* TutorialFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +144,9 @@
 		A7F4BA4729C8D0D60072AD57 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A7F4BA8E29E0F73B0072AD57 /* PropertyWrappers  */,
+				A7F4BA8529E0753D0072AD57 /* StateObj */,
+				A7F4BA7C29E0230F0072AD57 /* EnvironmentOb */,
 				A7F4BA7529E0020D0072AD57 /* Observable */,
 				A7F4BA3B29C627A90072AD57 /* ContentView.swift */,
 				A7F4BA5B29CCC07A0072AD57 /* TextViews.swift */,
@@ -178,6 +199,36 @@
 				A7F4BA7A29E0180D0072AD57 /* PeopleViewModel.swift */,
 			);
 			name = Observable;
+			sourceTree = "<group>";
+		};
+		A7F4BA7C29E0230F0072AD57 /* EnvironmentOb */ = {
+			isa = PBXGroup;
+			children = (
+				A7F4BA7D29E023440072AD57 /* PurchaseStateView.swift */,
+				A7F4BA7F29E025990072AD57 /* PurchaseTabView.swift */,
+				A7F4BA8129E026820072AD57 /* PurchaseView.swift */,
+				A7F4BA8329E028400072AD57 /* PurchaseViewmodel.swift */,
+			);
+			path = EnvironmentOb;
+			sourceTree = "<group>";
+		};
+		A7F4BA8529E0753D0072AD57 /* StateObj */ = {
+			isa = PBXGroup;
+			children = (
+				A7F4BA8629E075600072AD57 /* LoginView.swift */,
+				A7F4BA8829E07A9D0072AD57 /* LogedInVIew.swift */,
+				A7F4BA8C29E07B7F0072AD57 /* LoginViewModel.swift */,
+			);
+			name = StateObj;
+			sourceTree = "<group>";
+		};
+		A7F4BA8E29E0F73B0072AD57 /* PropertyWrappers  */ = {
+			isa = PBXGroup;
+			children = (
+				A7F4BA8F29E0F7710072AD57 /* TutorialView.swift */,
+				A7F4BA9129E0F94C0072AD57 /* TutorialFooterView.swift */,
+			);
+			path = "PropertyWrappers ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,16 +333,25 @@
 			files = (
 				A7F4BA6229D510430072AD57 /* ToggelStateView.swift in Sources */,
 				A7F4BA6829D7B7690072AD57 /* GradientColorShapes.swift in Sources */,
+				A7F4BA9029E0F7710072AD57 /* TutorialView.swift in Sources */,
 				A7F4BA6A29D842BF0072AD57 /* ShapesView.swift in Sources */,
 				A7F4BA6029CF5CD00072AD57 /* RoundedViews.swift in Sources */,
+				A7F4BA8929E07A9D0072AD57 /* LogedInVIew.swift in Sources */,
 				A7F4BA6629D7B3650072AD57 /* SwiftUIColors.swift in Sources */,
+				A7F4BA7E29E023440072AD57 /* PurchaseStateView.swift in Sources */,
+				A7F4BA8729E075600072AD57 /* LoginView.swift in Sources */,
+				A7F4BA8D29E07B7F0072AD57 /* LoginViewModel.swift in Sources */,
 				A7F4BA3C29C627A90072AD57 /* ContentView.swift in Sources */,
+				A7F4BA8229E026820072AD57 /* PurchaseView.swift in Sources */,
 				A7F4BA7429DE4F0A0072AD57 /* CustomLoadingView.swift in Sources */,
 				A7F4BA5C29CCC07A0072AD57 /* TextViews.swift in Sources */,
 				A7F4BA7229DE4DB80072AD57 /* PassingDataview.swift in Sources */,
 				A7F4BA6E29D9ECF80072AD57 /* StateView.swift in Sources */,
 				A7F4BA7B29E0180D0072AD57 /* PeopleViewModel.swift in Sources */,
+				A7F4BA9229E0F94C0072AD57 /* TutorialFooterView.swift in Sources */,
 				A7F4BA7729E002500072AD57 /* ObservableObjectView.swift in Sources */,
+				A7F4BA8429E028400072AD57 /* PurchaseViewmodel.swift in Sources */,
+				A7F4BA8029E025990072AD57 /* PurchaseTabView.swift in Sources */,
 				A7F4BA7029DE49EE0072AD57 /* ToggleStateView.swift in Sources */,
 				A7F4BA5E29CF4DDE0072AD57 /* Shapes.swift in Sources */,
 				A7F4BA6C29D8692E0072AD57 /* LayoutViews.swift in Sources */,
