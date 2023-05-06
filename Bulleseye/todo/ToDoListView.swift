@@ -13,6 +13,7 @@ struct ToDoListView: View {
                  "Chnage the World",
                  "Bring the Awesome",
                  "Take a vacation"]
+    @State var sheetIsPresented = false
     var body: some View {
         
         
@@ -77,13 +78,36 @@ struct ToDoListView: View {
                     } label: {
                         Text(toDo)
                     }
+                    .font(.title)
 
                     
                 }
             }
-            .navigationTitle("School Year")
+            .navigationTitle("To Do List")
             .navigationBarTitleDisplayMode(.automatic)
             .listStyle(.plain)
+            .toolbar{
+                ToolbarItem(placement: .navigationBarTrailing){
+//                    NavigationLink {
+//                        ToDoDetailView(passedValue: "")
+//                    } label: {
+//                        Image(systemName: "plus")
+//                    }
+                    Button {
+                        sheetIsPresented.toggle()
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+
+
+                }
+            }
+//            .sheet(isPresented: $sheetIsPresented) {
+//                ToDoDetailView(passedValue: "")
+//            }
+            .fullScreenCover(isPresented: $sheetIsPresented) {
+                ToDoDetailView(passedValue: "")
+            }
         }
         
         
