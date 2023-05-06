@@ -13,6 +13,11 @@
 		A72BEDB129FD19DE0055C894 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BEDB029FD19DE0055C894 /* MyModel.swift */; };
 		A72BEDB329FD240B0055C894 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BEDB229FD240B0055C894 /* UserData.swift */; };
 		A72BEDB729FD26C10055C894 /* DemoEnvObjView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BEDB629FD26C10055C894 /* DemoEnvObjView.swift */; };
+		A72BEDBA29FE55250055C894 /* NavigationBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BEDB929FE55250055C894 /* NavigationBootCamp.swift */; };
+		A72BEDBC2A002BD00055C894 /* FocusStateBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BEDBB2A002BD00055C894 /* FocusStateBootCamp.swift */; };
+		A72BEDBE2A02C9B00055C894 /* DemoFocustateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BEDBD2A02C9B00055C894 /* DemoFocustateView.swift */; };
+		A72BEDC12A05E20D0055C894 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BEDC02A05E20D0055C894 /* ToDoListView.swift */; };
+		A72BEDC32A05E5090055C894 /* ToDoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BEDC22A05E5090055C894 /* ToDoDetailView.swift */; };
 		A7F4BA3A29C627A90072AD57 /* BulleseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA3929C627A90072AD57 /* BulleseyeApp.swift */; };
 		A7F4BA3C29C627A90072AD57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F4BA3B29C627A90072AD57 /* ContentView.swift */; };
 		A7F4BA3E29C627AA0072AD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F4BA3D29C627AA0072AD57 /* Assets.xcassets */; };
@@ -63,6 +68,11 @@
 		A72BEDB029FD19DE0055C894 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 		A72BEDB229FD240B0055C894 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		A72BEDB629FD26C10055C894 /* DemoEnvObjView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoEnvObjView.swift; sourceTree = "<group>"; };
+		A72BEDB929FE55250055C894 /* NavigationBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBootCamp.swift; sourceTree = "<group>"; };
+		A72BEDBB2A002BD00055C894 /* FocusStateBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateBootCamp.swift; sourceTree = "<group>"; };
+		A72BEDBD2A02C9B00055C894 /* DemoFocustateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFocustateView.swift; sourceTree = "<group>"; };
+		A72BEDC02A05E20D0055C894 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		A72BEDC22A05E5090055C894 /* ToDoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailView.swift; sourceTree = "<group>"; };
 		A7F4BA3629C627A90072AD57 /* Bulleseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bulleseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F4BA3929C627A90072AD57 /* BulleseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulleseyeApp.swift; sourceTree = "<group>"; };
 		A7F4BA3B29C627A90072AD57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,8 +135,27 @@
 				A72BEDB029FD19DE0055C894 /* MyModel.swift */,
 				A72BEDB229FD240B0055C894 /* UserData.swift */,
 				A72BEDB629FD26C10055C894 /* DemoEnvObjView.swift */,
+				A72BEDBD2A02C9B00055C894 /* DemoFocustateView.swift */,
 			);
 			name = Demo;
+			sourceTree = "<group>";
+		};
+		A72BEDB829FE550C0055C894 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				A72BEDB929FE55250055C894 /* NavigationBootCamp.swift */,
+				A72BEDBB2A002BD00055C894 /* FocusStateBootCamp.swift */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+		A72BEDBF2A05E1D80055C894 /* todo */ = {
+			isa = PBXGroup;
+			children = (
+				A72BEDC02A05E20D0055C894 /* ToDoListView.swift */,
+				A72BEDC22A05E5090055C894 /* ToDoDetailView.swift */,
+			);
+			path = todo;
 			sourceTree = "<group>";
 		};
 		A7F4BA2D29C627A90072AD57 = {
@@ -150,6 +179,8 @@
 		A7F4BA3829C627A90072AD57 /* Bulleseye */ = {
 			isa = PBXGroup;
 			children = (
+				A72BEDBF2A05E1D80055C894 /* todo */,
+				A72BEDB829FE550C0055C894 /* Learning */,
 				A72BEDA129FCC1C10055C894 /* Demo */,
 				A7F4BA4B29C8D1F40072AD57 /* Models */,
 				A7F4BA4829C8D1400072AD57 /* App */,
@@ -359,9 +390,11 @@
 			files = (
 				A7F4BA6229D510430072AD57 /* ToggelStateView.swift in Sources */,
 				A7F4BA6829D7B7690072AD57 /* GradientColorShapes.swift in Sources */,
+				A72BEDC12A05E20D0055C894 /* ToDoListView.swift in Sources */,
 				A7F4BA9029E0F7710072AD57 /* TutorialView.swift in Sources */,
 				A7F4BA6A29D842BF0072AD57 /* ShapesView.swift in Sources */,
 				A7F4BA6029CF5CD00072AD57 /* RoundedViews.swift in Sources */,
+				A72BEDBC2A002BD00055C894 /* FocusStateBootCamp.swift in Sources */,
 				A7F4BA8929E07A9D0072AD57 /* LogedInVIew.swift in Sources */,
 				A72BEDA729FCC7860055C894 /* DemoBindView.swift in Sources */,
 				A7F4BA6629D7B3650072AD57 /* SwiftUIColors.swift in Sources */,
@@ -378,12 +411,15 @@
 				A7F4BA7B29E0180D0072AD57 /* PeopleViewModel.swift in Sources */,
 				A7F4BA9229E0F94C0072AD57 /* TutorialFooterView.swift in Sources */,
 				A7F4BA7729E002500072AD57 /* ObservableObjectView.swift in Sources */,
+				A72BEDBA29FE55250055C894 /* NavigationBootCamp.swift in Sources */,
 				A7F4BA8429E028400072AD57 /* PurchaseViewmodel.swift in Sources */,
 				A72BEDA529FCC3110055C894 /* DemoState.swift in Sources */,
 				A7F4BA8029E025990072AD57 /* PurchaseTabView.swift in Sources */,
 				A7F4BA7029DE49EE0072AD57 /* ToggleStateView.swift in Sources */,
+				A72BEDBE2A02C9B00055C894 /* DemoFocustateView.swift in Sources */,
 				A7F4BA5E29CF4DDE0072AD57 /* Shapes.swift in Sources */,
 				A7F4BA6C29D8692E0072AD57 /* LayoutViews.swift in Sources */,
+				A72BEDC32A05E5090055C894 /* ToDoDetailView.swift in Sources */,
 				A7F4BA4D29C8D2930072AD57 /* Game.swift in Sources */,
 				A72BEDB329FD240B0055C894 /* UserData.swift in Sources */,
 				A7F4BA3A29C627A90072AD57 /* BulleseyeApp.swift in Sources */,
