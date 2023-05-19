@@ -13,7 +13,7 @@ struct BulleseyeApp: App {
    // @StateObject private var vm = PurchaseViewmodel()
     var body: some Scene {
         WindowGroup {
-            DemoFocustateView()
+            NetworkListDemo()
            // LoginView()
 //            TabView{
 //                PurchaseView()
